@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin: 0px 500px 300px 0px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.contener-img {
+  width: 10px;
+  height: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%;
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.tea {
+  display: inline-table;
+  list-style: none;
+  margin: 0px 25px 0px 25px;
+}
+
+.coffee {
+  display: inline-table;
+  list-style: none;
+  margin: 0px 25px 0px 95px;
+}
+
+.milk {
+  display: inline-table;
+  list-style: none;
+  margin: 0px 25px 0px 125px;
+}
+
+.inv {
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.if {
+  padding: 30px 0px 0px 0px;
+  color: floralwhite;
+}
+
+.eqbutton {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: burlywood;
+}
